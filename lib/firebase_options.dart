@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'firebase_secrets.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -41,7 +42,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCziB6WM8PZF6NaxZKbvJ9t59CWDtpIT1Y',
+    apiKey: FirebaseSecrets.webApiKey,
     appId: '1:642011040906:web:fe68a90a67ee643b97b173',
     messagingSenderId: '642011040906',
     projectId: 'mobile-attendance-system-b8bd2',
@@ -50,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDTvHfHbfBLonpJG4N4nuc-3YiJ-TA655Y',
+    apiKey: FirebaseSecrets.androidApiKey,
     appId: '1:642011040906:android:9eac56744d06582e97b173',
     messagingSenderId: '642011040906',
     projectId: 'mobile-attendance-system-b8bd2',
@@ -58,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDDHV0-wIgLuhWxzp7temDzm1lhKrWsbmI',
+    apiKey: FirebaseSecrets.iosApiKey,
     appId: '1:642011040906:ios:893f00cfbe3baf4f97b173',
     messagingSenderId: '642011040906',
     projectId: 'mobile-attendance-system-b8bd2',
@@ -67,7 +68,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDDHV0-wIgLuhWxzp7temDzm1lhKrWsbmI',
+    apiKey: FirebaseSecrets.macosApiKey,
     appId: '1:642011040906:ios:893f00cfbe3baf4f97b173',
     messagingSenderId: '642011040906',
     projectId: 'mobile-attendance-system-b8bd2',
@@ -76,7 +77,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCziB6WM8PZF6NaxZKbvJ9t59CWDtpIT1Y',
+    apiKey: FirebaseSecrets.windowsApiKey,
     appId: '1:642011040906:web:8718abc35d0b985d97b173',
     messagingSenderId: '642011040906',
     projectId: 'mobile-attendance-system-b8bd2',
