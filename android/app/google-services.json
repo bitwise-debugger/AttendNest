@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642011040906",
+    "project_id": "mobile-attendance-system-b8bd2",
+    "storage_bucket": "mobile-attendance-system-b8bd2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642011040906:android:9eac56744d06582e97b173",
+        "android_client_info": {
+          "package_name": "com.example.attend_nest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTvHfHbfBLonpJG4N4nuc-3YiJ-TA655Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
